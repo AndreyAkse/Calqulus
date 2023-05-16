@@ -108,12 +108,12 @@
       from: mm
       to: m
     - lowpass:
-      extrapolate: 100
-      cutoff: 20
+      extrapolate: 50
+      cutoff: 12
     - acceleration:
     - lowpass:
-      extrapolate: 100
-      cutoff: 16
+      extrapolate: 50
+      cutoff: 12
 
 - parameter: RHeelBack_vel
   set: right
