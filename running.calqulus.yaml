@@ -89,13 +89,13 @@
       from: mm
       to: m
     - lowpass:
-      extrapolate: 100
-      cutoff: 20
+      extrapolate: 50
+      cutoff: 12
       export: Right_MID_FOOT
     - velocity:
     - lowpass:
-      extrapolate: 100
-      cutoff: 8
+      extrapolate: 50
+      cutoff: 12
 
 - parameter: Right_MID_FOOT_acc
   set: right
